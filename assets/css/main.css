@@ -521,8 +521,10 @@ body {
 }
 
 .skills__card:hover {
-  box-shadow: var(--shadow-secondary);
+  /* box-shadow: var(--shadow-secondary); */
   transform: scale(1.1);
+  box-shadow: inset 0 0 4px #fff, /* outer white */ -10px 0 19px #f0f,
+    /* outer left magenta */ 10px 0 19px #0ff; /* outer right cyan */
 }
 
 .skills__img-wrapper {
