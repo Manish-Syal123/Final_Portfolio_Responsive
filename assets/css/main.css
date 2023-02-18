@@ -134,6 +134,8 @@ body {
 .dark-theme .header,
 .dark-theme .nav__menu {
   background-color: var(--color-secondary);
+  --color-title: #00ff40;
+  text-shadow: rgb(0, 255, 0) -5px -1px 22px;
 }
 
 .dark-theme .section-bg {
@@ -157,7 +159,10 @@ body {
   background-color: var(--color-secondary);
   box-shadow: none;
 }
-
+.dark-theme .section__title {
+  --color-title: #00ff40;
+  text-shadow: #00ff00 -5px -1px 22px;
+}
 .dark-theme .service__icon {
   background-color: var(--color-secondary-dark);
 }
