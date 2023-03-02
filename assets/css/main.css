@@ -730,11 +730,21 @@ body {
   background-color: var(--color-white);
   box-shadow: var(--shadow-primary);
   width: 100%;
-  max-width: 40rem;
+  max-width: 32rem;
   justify-self: center;
   border-radius: var(--b-radius);
-  padding: 5rem 3rem;
+  /* padding: 5rem 3rem; */
   position: relative;
+}
+
+/* update */
+.testimonial__quote {
+  cursor: pointer;
+}
+/* update */
+.timg {
+  width: 100%;
+  height: 100%;
 }
 
 .testimonial__card-icon {
