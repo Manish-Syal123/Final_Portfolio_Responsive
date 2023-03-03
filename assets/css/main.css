@@ -159,6 +159,9 @@ body {
   background-color: var(--color-secondary);
   box-shadow: none;
 }
+.dark-theme .testimonial__quote {
+  color: white;
+}
 .dark-theme .section__title {
   --color-title: #00ff40;
   text-shadow: #00ff00 -5px -1px 22px;
