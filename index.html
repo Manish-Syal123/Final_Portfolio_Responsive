@@ -716,33 +716,43 @@
           <h2 class="section__title">Feel Free to Contact</h2>
         </div>
         <div class="d-grid contact__wrapper container">
-          <form action="" class="contact__form">
+          <form
+            action="https://formspree.io/f/xlekoazv"
+            method="POST"
+            class="contact__form"
+          >
             <div class="form__group">
               <label for="" class="form__label">Name</label>
               <input
                 type="text"
+                name="username"
                 class="form__input"
                 placeholder="Enter your name"
                 required
+                autocomplete="off"
               />
             </div>
             <div class="form__group">
               <label for="" class="form__label">Email</label>
               <input
                 type="email"
+                name="email"
                 class="form__input"
                 placeholder="Enter your email"
                 required
+                autocomplete="off"
               />
             </div>
             <div class="form__group">
               <label for="" class="form__label">Message</label>
               <textarea
+                name="textarea"
                 class="form__input form__textarea"
                 placeholder="Tell me about your project"
+                required
               ></textarea>
             </div>
-            <button type="submit" class="btn btn--primary">
+            <button type="submit" name="submit" class="btn btn--primary">
               <i class="ri-send-plane-line"></i>Send Message
             </button>
           </form>
