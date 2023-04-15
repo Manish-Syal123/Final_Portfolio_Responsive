@@ -1019,11 +1019,6 @@ body {
   color: var(--color-gray-light);
 }
 
-#wave {
-  max-width: fit-content;
-  position: absolute;
-}
-
 /* ScrollTop
 --------------------------------------------------------------*/
 .scrolltop {
